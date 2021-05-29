@@ -1,0 +1,89 @@
+.post > img {
+  object-fit: contain;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  width: 100%;
+}
+.post {
+  border: 1px solid lightgray;
+  margin: 10px 10px;
+  background-color: white;
+  border-radius: 3px;
+  width: 90%;
+  max-width: 500px;
+}
+.post__header {
+  display: flex;
+  padding: 15px;
+  align-items: center;
+  justify-content: space-between;
+}
+.post__avatar {
+  margin-right: 10px;
+}
+
+.post__footer {
+  margin-left: 10px;
+  padding: 6px;
+}
+.post__comments {
+  margin-left: 10px;
+}
+.post__commentsView {
+  margin-left: 1px;
+  color: gray;
+  font-size: 16px;
+}
+.post__comments > p {
+  padding: 5px;
+  font-size: 15px;
+}
+.post__commentUpload {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  margin: 10px 0;
+}
+.post__commentUpload > input {
+  border: none;
+  flex: 1;
+  padding: 10px;
+  background-color: #fafafa;
+}
+.post__commentUpload > button {
+  padding: 7px;
+  border: none;
+  background-color: white;
+  color: lightseagreen;
+  font-size: 16px;
+  font-weight: 600;
+}
+.post__left {
+  display: flex;
+  align-items: center;
+}
+.post__deleteBtn {
+  color: white !important;
+  background-color: red !important;
+  font-size: 13px !important;
+  font-weight: 600 !important;
+  border: 1px solid lightgray !important;
+}
+.post__deleteBtn:hover {
+  color: black !important;
+  background-color: white !important;
+  border: 1px solid lightgray !important;
+}
+.post__like {
+  display: flex;
+  justify-content: space-around;
+  padding: 5px;
+  border-top: 1px solid lightgray;
+  margin: 7px 0px;
+}
+.post__like > p {
+  font-size: 16px;
+  font-weight: 600;
+  color: gray;
+  cursor: pointer;
+}
